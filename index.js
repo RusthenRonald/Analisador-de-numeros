@@ -62,3 +62,8 @@ function Finalizar(){
         res.innerHTML+=`<br>A média de todos os valores foi de ${media}`
     }
 }
+function Limpar(){
+    lista.innerHTML=''
+    valores=[]
+    res.innerHTML=''
+}
