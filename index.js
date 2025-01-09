@@ -41,5 +41,11 @@ function Finalizar(){
     else{
         tot = valores.length
         res.innerHTML=`Tem ${tot} números cadastrados.`
+        //maior e menor valor
+        maior = valores[0]
+        menor = valores[0]
+        for(var pos in valores){
+            
+        }
     }
 }
