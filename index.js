@@ -9,6 +9,7 @@ function Adicionar(){
     if(isNumero(num.value) && !inLista(num.value,valores)){
         window.alert('Continue!')
         valores.push(Number(num.value))
+        var item = document.createElement('option')
     }
     else{
         window.alert('Dados inválidos!')
