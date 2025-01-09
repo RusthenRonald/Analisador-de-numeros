@@ -15,6 +15,7 @@ function Adicionar(){
     else{
         window.alert('Dados inválidos!')
     }
+    num.value=''
     function isNumero(n){
         if(Number(n)>=1 && Number(n)<=100){
             return true
