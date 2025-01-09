@@ -41,10 +41,14 @@ function Finalizar(){
     else{
         tot = valores.length
         res.innerHTML=`Tem ${tot} números cadastrados.`
-        //maior e menor valor
+        //maior e menor valor`, soma
         maior = valores[0]
         menor = valores[0]
+        soma=0
+        media =0
         for(var pos in valores){
+            soma+=valores[pos]
+            media = soma / tot
             if(valores[pos]>maior){
                 maior = valores[pos]
             }
@@ -54,5 +58,7 @@ function Finalizar(){
         }
         res.innerHTML+=`<br>O maior número foi ${maior}`
         res.innerHTML+=`<br>O menor número foi ${menor}`
+        res.innerHTML+=`<br>A soma de todos os valores foi de ${soma}`
+        res.innerHTML+=`<br>A média de todos os valores foi de ${media}`
     }
 }
