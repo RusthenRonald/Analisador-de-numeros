@@ -52,7 +52,7 @@ function Finalizar(){
                 menor = valores[pos]
             }
         }
-        res.innerHTML+=`O maior número foi ${maior}`
-        res.innerHTML+=`O menor número foi ${menor}`
+        res.innerHTML+=`<br>O maior número foi ${maior}`
+        res.innerHTML+=`<br>O menor número foi ${menor}`
     }
 }
