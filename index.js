@@ -7,9 +7,10 @@ var valores = []
 function Adicionar(){
     //validação
     if(isNumero(num.value) && !inLista(num.value,valores)){
-        window.alert('Continue!')
         valores.push(Number(num.value))
         var item = document.createElement('option')
+        item.innerHTML=Number(num.value)
+        lista.appendChild(item)
     }
     else{
         window.alert('Dados inválidos!')
