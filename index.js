@@ -32,4 +32,8 @@ function Adicionar(){
             return false 
         }
     }
+    //Analise de números
+    function Finalizar(){
+        
+    }
 }
