@@ -32,8 +32,13 @@ function Adicionar(){
             return false 
         }
     }
-    //Analise de números
-    function Finalizar(){
-        
+}
+//Analise de números
+function Finalizar(){
+    if(valores.length==0){
+        window.alert('Adicione valores para continuar!')
+    }
+    else{
+        window.alert('Continue!')
     }
 }
