@@ -45,7 +45,12 @@ function Finalizar(){
         maior = valores[0]
         menor = valores[0]
         for(var pos in valores){
-            
+            if(valores[pos]>maior){
+                maior = valores[pos]
+            }
+            if(valores[pos]<menor){
+                menor = valores[pos]
+            }
         }
     }
 }
