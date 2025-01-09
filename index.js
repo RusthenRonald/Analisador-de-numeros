@@ -39,6 +39,7 @@ function Finalizar(){
         window.alert('Adicione valores para continuar!')
     }
     else{
-        window.alert('Continue!')
+        tot = valores.length
+        res.innerHTML=`Tem ${tot} números cadastrados.`
     }
 }
