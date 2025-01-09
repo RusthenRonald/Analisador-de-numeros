@@ -8,6 +8,7 @@ function Adicionar(){
     //validação
     if(isNumero(num.value) && !inLista(num.value,valores)){
         window.alert('Continue!')
+        valores.push(Number(num.value))
     }
     else{
         window.alert('Dados inválidos!')
